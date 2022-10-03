@@ -1,0 +1,86 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1118",
+      "name": "文件",
+      "font_class": "wenjian",
+      "unicode": "f00bd",
+      "unicode_decimal": 983229
+    },
+    {
+      "icon_id": "1233",
+      "name": "文本",
+      "font_class": "wenben",
+      "unicode": "f0130",
+      "unicode_decimal": 983344
+    },
+    {
+      "icon_id": "577365",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e752",
+      "unicode_decimal": 59218
+    },
+    {
+      "icon_id": "629333",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "630252",
+      "name": "消息中心",
+      "font_class": "xiaoxizhongxin",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "1177726",
+      "name": "软件服务",
+      "font_class": "ruanjianfuwu",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "2270855",
+      "name": "摄像机",
+      "font_class": "shexiangji",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "2815733",
+      "name": "文件夹",
+      "font_class": "wenjianjia",
+      "unicode": "e552",
+      "unicode_decimal": 58706
+    },
+    {
+      "icon_id": "6880165",
+      "name": "摄像头",
+      "font_class": "shexiangtou",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "7596589",
+      "name": "24gf-ellipsis",
+      "font_class": "24gf-ellipsis",
+      "unicode": "eb10",
+      "unicode_decimal": 60176
+    },
+    {
+      "icon_id": "10202019",
+      "name": "销售",
+      "font_class": "xiaoshou",
+      "unicode": "e8e3",
+      "unicode_decimal": 59619
+    }
+  ]
+}
