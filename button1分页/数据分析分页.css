@@ -101,6 +101,7 @@
     display: inline-block;
     margin-right: 150px;
     transition: all 0.2s;
+    color:#ddd;
 }
 
 .wrap .extra .list .list1 {
