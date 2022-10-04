@@ -105,7 +105,7 @@
 
 .wrap .extra .list .list1 {
     position: absolute;
-    top: 119px;
+    top: 120px;
     left: 180px;
     height: 256px;
     transition: all 0.2s;
@@ -113,33 +113,33 @@
 
 .wrap .extra .list .list2 {
     position: absolute;
-    top: 135px;
+    top: 160px;
     left: 376px;
-    height: 240px;
+    height: 215px;
     transition: all 0.2s;
 }
 
 .wrap .extra .list .list3 {
     position: absolute;
-    top: 160px;
+    top: 133px;
     left: 568px;
-    height: 215px;
+    height: 243px;
     transition: all 0.2s;
 }
 
 .wrap .extra .list .list4 {
     position: absolute;
-    top: 148px;
+    top: 140px;
     left: 765px;
-    height: 228px;
+    height: 236px;
     transition: all 0.2s;
 }
 
 .wrap .extra .list .list5 {
     position: absolute;
-    top: 180px;
+    top: 146px;
     left: 960px;
-    height: 197px;
+    height: 230px;
     transition: all 0.2s;
 }
 
