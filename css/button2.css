@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 顶部开始 */
+
+.bigbox {
+    width: 100%;
+    background-color: #eee;
+}
+
+
+/* 头部以及返回按钮
+ */
+
+.top {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    background-color: rgba(39, 45, 102, 0.722);
+}
+
+.top .nav a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+
+/* container开始 */
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 100%;
+    /* background-image: url('./img/bg.jpg'); */
+    position: relative;
+}
+
+.container .wrap {
+    width: 60%;
+    height: 1200px;
+    margin-left: 11%;
+}
+
+.container .wrap .list {
+    margin: 20px auto;
+}
+
+.container .wrap ul>li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+
+.container .wrap .img {
+    width: 208px;
+    height: 275px;
+    margin-top: 20px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+    transition: all 0.2s;
+    box-shadow: 2px 10px 20px 5px rgba(0, 0, 0, 0.25);
+}
+
+.container .wrap .img:hover {
+    transform: translateY(-2px);
+    box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 鼠标滑动示例 */
+
+
+/* .video-box>div {
+    width: 296px;
+    height: 285px;
+    background: #fff;
+    float: left;
+    margin-bottom: 14px;
+    margin-right: 14px;
+    transition: all 0.2s;
+}
+
+.video-box>div:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+} */
+
+.container .wrap .img img {
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+
+/* 侧边栏固定 */
+
+.container .slide-wrap {
+    position: fixed;
+    right: 20px;
+    top: 15px;
+}
+
+
+/* container结束 */
