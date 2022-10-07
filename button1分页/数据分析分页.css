@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* 顶部开始 */
+
+.bigbox {
+    width: 100%;
+    background-color: #eee;
+}
+
+
+/* 头部以及返回按钮 */
+
+.top {
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    background-color: rgba(39, 45, 102, 0.722);
+}
+
+.top .nav a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.container .wrap {
+    width: 80%;
+    height: 1500px;
+    margin: 0 auto;
+    position: relative;
+    /* border-radius: 10px; */
+    /* background-color: rgb(255, 255, 255); */
+    /* overflow: hidden; */
+}
+
+.wrap {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrap .canvas {
+    margin-top: 30px;
+    width: 100%;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 20px 5px rgba(0, 0, 0, 0.15);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.wrap .canvas .text {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    float: right;
+}
+
+.wrap .canvas .text p {
+    display: block;
+}
+
+.wrap .canvas .chart {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.wrap .canvas .chart .bigone {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px dashed #555;
+}
+
+
+/* 坐标轴 extra */
+
+
+/* .wrap .extra .list .list1 {
+    top: 155px;
+    left: 180px;
+} */
+
+.wrap .extra .list div {
+    width: 50px;
+    height: 220px;
+    background-color: rgb(17, 86, 165);
+    display: inline-block;
+    margin-right: 150px;
+    transition: all 0.2s;
+    color:#ddd;
+}
+
+.wrap .extra .list .list1 {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    height: 256px;
+    transition: all 0.2s;
+}
+
+.wrap .extra .list .list2 {
+    position: absolute;
+    top: 160px;
+    left: 376px;
+    height: 215px;
+    transition: all 0.2s;
+}
+
+.wrap .extra .list .list3 {
+    position: absolute;
+    top: 133px;
+    left: 568px;
+    height: 243px;
+    transition: all 0.2s;
+}
+
+.wrap .extra .list .list4 {
+    position: absolute;
+    top: 140px;
+    left: 765px;
+    height: 236px;
+    transition: all 0.2s;
+}
+
+.wrap .extra .list .list5 {
+    position: absolute;
+    top: 146px;
+    left: 960px;
+    height: 230px;
+    transition: all 0.2s;
+}
+
+
+/* 坐标轴 list-bottom */
+
+.wrap .extra .list-bottom {
+    position: absolute;
+    top: 380px;
+    left: 178px;
+    float: left;
+}
+
+.wrap .extra .list-bottom li {
+    list-style: none;
+    width: 50px;
+    height: 20px;
+    /* background-color: rgb(17, 86, 165); */
+    display: inline-block;
+    margin-right: 140px;
+    /* transition: all 0.2s; */
+}
+
+
+/* 坐标轴 list-slide */
+
+.wrap .extra .list-slide {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+.wrap .extra .list-slide li {
+    /* list-style: none; */
+    width: 50px;
+    height: 20px;
+    display: block;
+    /* background-color: rgb(17, 86, 165); */
+    margin-bottom: 31px;
+    /* transition: all 0.2s; */
+}
+
+
+/* 题目文字 background */
+
+.wrap .background {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    float: left;
+}
+
+.wrap .background .text {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.wrap .background .text .ques {
+    width: 92%;
+    padding-left: 30px;
+}
+
+.background .text .ques h4 {
+    margin-bottom: 10px;
+}
+
+
+/* 题目选项margin */
+
+.background .text .option input {
+    margin: 5px 0px;
+    margin-bottom: 15px;
+}
+
+.wrap .text a {
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrap .text h3 {
+    margin-top: 0px;
+}
+
+.background .text .ques {
+    margin-top: 20px;
+}
